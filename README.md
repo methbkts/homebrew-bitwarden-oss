@@ -1,16 +1,16 @@
-# Methbkts Bitwarden-oss
+# Bitwarden OSS
 
-## How do I install these formulae?
+## How do I install the cask?
 
-`brew install methbkts/bitwarden-oss/<formula>`
+`brew install --cask methbkts/bitwarden-oss/bitwarden-oss`
 
-Or `brew tap methbkts/bitwarden-oss` and then `brew install <formula>`.
+Or `brew tap methbkts/bitwarden-oss` and then `brew install --cask bitwarden-oss`.
 
-Or, in a `brew bundle` `Brewfile`:
+Or add this to a `Brewfile`:
 
 ```ruby
 tap "methbkts/bitwarden-oss"
-brew "<formula>"
+cask "bitwarden-oss"
 ```
 
 ## Documentation
